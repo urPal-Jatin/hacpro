@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+ 
+    background-color: rgb(18, 13, 13); /* Set the desired background color */
+    color: black; /* Change text color to black */
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+/* .msti{
+    background-color: aqua;
+}  */ 
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+  }
+  
+.navbar li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(251, 250, 250);
+    transition: 0.3s ease-in-out;
+  }
+  
+.navbar li a:hover {
+    color: red;
+  }
+  
